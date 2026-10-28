@@ -19,6 +19,6 @@ int main(void)
 	else if (digit == 0)
 		printf("and is 0\n", n, digit);
 	else
-		printf("and is less than 6 and not 0\n", n, digit)
+		printf("and is less than 6 and not 0\n", n, digit);
 	return (0);
 }
