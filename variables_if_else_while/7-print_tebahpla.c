@@ -7,14 +7,24 @@
  */
 int main(void)
 {
-        int n;
+	int n;
+	int i;
 
 	n = 0;
-	while (n < 26)
+	while (n < 10)
 	{
-		putchar('z' - n);
+		putchar('0' + n);
 		n = n + 1;
+
 	}
+
+	i = 0;
+	while (i < 3)
+	{
+		putchar('a' + i);
+		i = i + 1;
+	}
+
 	putchar('\n');
 	return (0);
 }
