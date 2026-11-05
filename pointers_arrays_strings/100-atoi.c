@@ -3,7 +3,6 @@
 /**
  * _atoi - converts a string to an integer
  * @s: string to convert
- * 
  * return: the converted number, or 0 if there is no number
  */
 int _atoi(char *s)
@@ -13,7 +12,7 @@ int _atoi(char *s)
     int result;
     int found;
 
-    i= 0;
+    i = 0;
     sign = 1;
     result = 0;
     found = 0;
