@@ -1,3 +1,7 @@
 {
+<<<<<<< HEAD
     "C_Cpp.default.compilerPath": "C:\\msys64\\ucrt64\\bin\\gcc.exe"
+=======
+    "C_Cpp.errorSquiggles": "disabled"
+>>>>>>> 00c24e41da8469f7a0317ff17c6c9a378c212ad5
 }
