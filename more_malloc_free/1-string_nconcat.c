@@ -6,8 +6,8 @@
  * @s1: first string
  * @s2: second string
  * @n: number of bytes to concatenate from s2
- * 
- * Return: pointer to the newly allocated space in memory containing the concatenated string
+ *
+ * Return: pointer to the new string, or NULL if it fails
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
