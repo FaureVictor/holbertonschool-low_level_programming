@@ -5,7 +5,7 @@
  * main - multiplies two numbers
  * @argc: numbers of arguments
  * @argv: array of arguments
- * 
+ *
  * return: 0 on sucess, 1 if the numbers of arguments is wrong
  */
 int main(int argc, char *argv[])
@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 
 	if (argc != 3)
 	{
-		printf ("Error\n");
+		printf("Error\n");
 		return (1);
 	}
 	a = atoi(argv[1]);
