@@ -19,11 +19,11 @@ int sum_them_all(const unsigned int n, ...)
 		return (0);
 	}
 	va_start(args, n);
-	somme = 0
+	somme = 0;
 	i = 0;
 	while (i < n)
 	{
-		somme + va_arg(args);
+		somme = somme + va_arg(args, int);
 		i++;
 	}
 	va_end(args);
