@@ -17,15 +17,15 @@ int main(int argc, char *argv[])
 	mots = 1;
 	lettres = 0;
 	somme = 0;
-	while(mots < argc)
+	while (mots < argc)
 	{
 		lettres = 0;
-		while(argv[mots][lettres] != '\0')
+		while (argv[mots][lettres] != '\0')
 		{
-			if(lettres < argv[mots] || lettres > argv[lettres])
+			if (argv[mots][lettres] < '0' || argv[mots][lettres] > '9')
 			{
 				printf("Error\n");
-				return(1);
+				return (1);
 			}
 			lettres++;
 		}
