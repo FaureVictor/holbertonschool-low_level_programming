@@ -3,10 +3,10 @@
 
 /**
  * main - multiplies two numbers
- * @argc: numbers of arguments
+ * @argc: number of arguments
  * @argv: array of arguments
  *
- * return: 0 on sucess, 1 if the numbers of arguments is wrong
+ * Return: 0 on success, 1 if the numbers of arguments is wrong
  */
 int main(int argc, char *argv[])
 {
