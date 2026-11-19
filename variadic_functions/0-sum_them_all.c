@@ -14,15 +14,18 @@ int sum_them_all(const unsigned int n, ...)
 	int somme;
 	unsigned int i;
 
-	i = 0;
+	if (n = 0)
+	{
+		return(0)
+	}
 	va_start(args, n);
-	somme = va_arg(args, int);
+	somme = va_arg(args);
 	i = 0;
 	while (i < n)
 	{
-		somme + va_arg(args, n);
+		somme + va_arg;
 		i++;
 	}
-	va_end(args, n);
+	va_end(args);
 	return (somme);
 }
